@@ -9,16 +9,16 @@ ___
 
 You can use this toolbar like you are used to, or like the example below.
 ```xml
-    <com.example.centeredtoolbar.CenteredToolbar[
+    <com.example.centeredtoolbar.CenteredToolbar
                 android:layout_width="0dp"
                 android:layout_height="?actionBarSize"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"/>
 ```
-and you can also use the attibute <code>titleFontFamily</code> to set a font for your toolbar title, just like below.
+and you can also use the attribute <code>titleFontFamily</code> to set a font for your toolbar title, just like below.
 ```xml
-    <com.example.centeredtoolbar.CenteredToolbar[
+    <com.example.centeredtoolbar.CenteredToolbar
                 android:layout_width="0dp"
                 android:layout_height="?actionBarSize"
                 app:layout_constraintTop_toTopOf="parent"
@@ -35,7 +35,7 @@ and you can also use the attibute <code>titleFontFamily</code> to set a font for
     <dependency>
           <groupId>com.github.shua3343</groupId>
           <artifactId>Android-CenteredToolbar</artifactId>
-          <version>Tag</version>
+          <version>1.0.0</version>
     </dependency>
 ``` 
 #### To use with Maven
@@ -52,7 +52,7 @@ and you can also use the attibute <code>titleFontFamily</code> to set a font for
 
 ```groovy
     dependencies {
-          implementation 'com.github.shua3343:Android-CenteredToolbar:Tag'
+          implementation 'com.github.shua3343:Android-CenteredToolbar:1.0.0'
     }
 ```
 #### To use with Gradle
