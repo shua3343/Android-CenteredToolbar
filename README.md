@@ -65,4 +65,4 @@ and you can also use the attibute <code>titleFontFamily</code> to set a font for
 ```
 
 # Current Version
-## 0.0.1
+## 1.0.0
