@@ -7,7 +7,7 @@ ___
 
 ## Technologies
  This lib uses **Glide 4.9.0** and **AndroidX**.
- **minimum sdk 14**.
+ **Minimum sdk 14**.
  
 ## How to use
 
